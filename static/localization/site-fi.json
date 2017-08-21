@@ -6,8 +6,10 @@
     "navigation-4": "KARTTA",
     "navigation-5": "MUUTA",
     "navigation-6": "OTA YHTEYTTÄ",
+    "info-header": "Yleistä",
     "info-1": "Sileään silkkiin verhoutunut Polin Appro tulee jälleen kuumempana ja kauniimpana kuin koskaan! Tämä legendaksi muodostunut Suomen suurin teekkarivetoinen baarikiertely kerää yhteen kaikki opiskelijat ja opiskelijamieliset. Tule pelaamaan itsesi huipulle sekä bilettämään jatkoilla Fii Fightersin ja Vilma Alinan tahtiin!",
     "pricing": "13e myyjiltä<br>13.5e bailataan.fi:stä<br>7e vain jatkot<br>Liput sisältävät jatkojen narikkamaksun (3e)",
+    "tickets-header": "Liput",
     "levels-header": "Suoritustasot",
     "levels": "7 - taso 1<br>11 - taso 2<br>15 - taso 3",
     "levels-note": "Muista approista poiketen suorituksiin ei vaadita aikaisempaa osallistumista, eli minkä tahansa suoritustason voi saavuttaa jo ensimmäisellä osallistumiskerralla.",
@@ -23,5 +25,6 @@
     "what-appro": "Appron ideana on kiertää approlippuun merkittyjä baareja juomaleimoja keräten. Illan mittaan kerätyistä leimoista saa jatkopaikalla haalarimerkin, joka määräytyy leimojen lukumäärän mukaisesti. Polin approssa suoritusaika on neljä tuntia. Kiertelyn jälkeen suunnataan kohti Apollo Live Clubia, jossa ovat tapahtuman viralliset jatkot. Jatkoille pääsee approlipulla.",
     "what-ie-header": "Mikä IE?",
     "what-ie": "IE eli Isännistö ja Emännistö on AYY:n Teekkarijaoston alla toimiva toimikunta, joka järjestää tapahtumia. IE on perinteisesti ollut toimikunta, johon kuuluu teekkariyhdistysten tapahtumavastaavia. AYY:n myötä teekkareiden vahvistukseksi IE:seen on liittynyt myös Kyltereitä ja Artsilaisia. Polin Appro on suurin IE:n yhdessä järjestämä tapahtuma. Koko porukkaa yhdistää innostus sekä antaumuksellinen asenne tapahtumien järjestämiseen luoden hauskanpidon puitteet kaikille.",
+    "contact-header": "Ota yhteyttä",
     "contact": "Onko kysyttävää tai muuta mietittävää? Ota yhteyttä toimikunnan puheenjohtajaan IE-tirehtööriin sähköpostilla: anna.anttalainen@ayy.fi"
 }
