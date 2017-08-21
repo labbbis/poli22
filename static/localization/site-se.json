@@ -6,8 +6,10 @@
     "navigation-4": "KARTA",
     "navigation-5": "ÖVRIGT",
     "navigation-6": "KONTAKT",
+    "info-header": "Allmänt",
     "info-1": "Pubäventyret Polin appro är tillbaka med en ny look! Denna numera legendariska teknologdrivna pubrunda, som blivit Finlands största, samlar alla som är studerande eller studentsinnade. Spela dig till toppen och efterfestar med Fii Fighters och Vilma Alina!",
     "pricing": "13e från försäljarna<br>13.5e från bailataan.fi<br>7e enbart efterfest<br>Biljetterna inkluderar efterfestens garderobsavgift (3e)",
+    "tickets-header": "Biljetter"
     "levels-header": "Prestationsnivåer",
     "levels": "7 - nivå 1<br>11 - nivå 2<br>15 - nivå 3",
     "levels-note": "Till skillnad från övriga appron krävs inget tidigare deltagande. Det är alltså möjligt att uppnå vilken som helst prestationsnivå redan första gången du deltar.",
@@ -23,5 +25,6 @@
     "what-appro": "Idén med en appro är att gå runt och samla drinkstämplar i de pubar som markerats på approbiljetten. På efterfesten får deltagarna ett halarmärke enligt antalet stämplar de samlat in under kvällen. Under Polin appro är den utsatta tiden fyra timmar. Efter pubrundan ordnas evenemangets officiella efterfest på Apollo Live Club. Approbiljetten ger tillträde till efterfesten.",
     "what-ie-header": "Vad är IE?",
     "what-ie": "IE eller Isännistö ja Emännistö (Värdskapet) är en kommitté under AUS Teknologsektion som ordnar evenemang. Av tradition har IE varit en kommitté som består av teknologföreningarnas evenemangsansvariga. I och med AUS har också några ekonomi- och konststuderande kallats in som förstärkning. Polin Appro är det största evenemanget som IE ordnar tillsammans. Gemensamt för hela gänget är deras iver och engagerade inställning till att ordna evenemang där alla kan ha kul.",
+    "contact-header": "Kontakt",
     "contact": "Har du frågor eller funderingar? Kontakta kommitténs ordförande IE-direktören per e-post: anna.anttalainen@ayy.fi"
 }
