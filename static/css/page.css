@@ -46,13 +46,19 @@ ul, li {
     src: url('../fonts/LoversQuarrel-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Regular.ttf');
+}
+
 h4 {
     font-family: 'Lovers Quarrel';
-    font-size: 60px;
+    font-size: 80px;
 }
 
 p {
     font-size: 18px;
+    font-family: 'Lora';
 }
 
 .blink {
@@ -90,7 +96,7 @@ input[type=checkbox]:checked ~ #menu{
 nav {
     background-color: #000000;
     position: fixed;
-    font-family: start;
+    font-family: 'Lora';
     font-size: 8px;
     text-align: center;
     width: 100%;
