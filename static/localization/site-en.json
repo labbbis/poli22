@@ -6,8 +6,10 @@
     "navigation-4": "MAP",
     "navigation-5": "OTHER INFO",
     "navigation-6": "GET IN TOUCH",
+    "info-header": "Information",
     "info-1": "The Polin Appro pub crawl is renewed yet again! The largest technology student-driven pub crawl gathers together students and student-minded people from all over the metropolitan area. Come and game your way to the top and celebrate at the afterparty to the tunes of jokuartisti and jokuartisti!",
     "pricing": "13e from sellers<br>13.5e from bailataan.fi<br>7e afterparty only<br>The tickets include the afterparty cloakroom fee (3e)",
+    "tickets-header": "Tickets",
     "levels-header": "Performance levels",
     "levels": "7 - level 1<br>11 - level 2<br>15 - level 3",
     "levels-note": "Unlike other pub crawls, previous participation is not required and therefore you can achieve any performance level already when you participate for the first time.",
@@ -23,5 +25,6 @@
     "what-appro": "The idea of the appro is to visit the pubs marked in the appro ticket and collect drink stamps. You get an overall badge at the afterparty depending on the number of stamps that you have collected during the evening. In Polin Appro, you have four hours to collect stamps. After the pub crawl, you can head to Apollo Live Club to the official afterparty. Free admission with the appro ticket.",
     "what-ie-header": "WHhat is IE?",
     "what-ie": "IE, meaning the Hosts and Hostesses (\"Isännistö and Emännistö\") is a committee operating under AYY's Teekkari Section, which organises events. IE has traditionally been a committee that includes persons in charge of events in engineering student associations. Along with AYY, we now also have a few business and arts students in IE. Polin Appro is the largest event organised by IE. The whole bunch of people are united by their enthusiasm and dedicated attitude in event organising, creating an opportunity for everyone to have fun.",
+    "contact-header": "Get in touch",
     "contact": "Do you have any questions or comments? Please get in touch with the Committee Chairperson, IE Director by email: anna.anttalainen@ayy.fi"
 }
