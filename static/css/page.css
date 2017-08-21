@@ -42,13 +42,13 @@ ul, li {
 }
 
 @font-face {
-    font-family: start;
+    font-family: 'Lovers Quarrel', cursive;
     src: url('../fonts/LoversQuarrel-Regular.ttf');
 }
 
 h4 {
-    font-family: start;
-    font-size: 24px;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 60px;
 }
 
 p {
