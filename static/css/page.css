@@ -47,6 +47,11 @@ ul, li {
 }
 
 @font-face {
+    font-family: 'Trochut';
+    src: url('../fonts/Trochut-Regular.ttf');
+}
+
+@font-face {
     font-family: 'Lovers Quarrel';
     src: url('../fonts/LoversQuarrel-Regular.ttf');
 }
@@ -63,7 +68,7 @@ h4 {
 
 p {
     font-size: 18px;
-    font-family: 'Park Lane';
+    font-family: 'Trochut';
     color: #e6e6e6;
 }
 
