@@ -160,9 +160,8 @@ a {
 
 body {
     background-color: black;
-    background-image: url("../img/glitter.jpg");
+    background-image: url("../img/glitter.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
     color:white;
 }
 
