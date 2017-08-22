@@ -161,6 +161,7 @@ a {
 body {
     background-color: black;
     background-image: url("../img/glitter.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     color:white;
 }
