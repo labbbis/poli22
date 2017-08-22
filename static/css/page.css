@@ -147,8 +147,8 @@ a, a:hover {
 }
 
 .ielogo:hover {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 /* navbar end */
@@ -160,6 +160,8 @@ a {
 
 body {
     background-color: black;
+    background-image: url("../img/glitter.jpg");
+    background-repeat: no-repeat;
     color:white;
 }
 
