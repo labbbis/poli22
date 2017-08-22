@@ -42,6 +42,11 @@ ul, li {
 }
 
 @font-face {
+    font-family: 'Park Lane';
+    src: url('../fonts/ParkLaneNF.ttf');
+}
+
+@font-face {
     font-family: 'Lovers Quarrel';
     src: url('../fonts/LoversQuarrel-Regular.ttf');
 }
@@ -52,13 +57,13 @@ ul, li {
 }
 
 h4 {
-    font-family: 'Lovers Quarrel';
-    font-size: 80px;
+    font-family: 'Park Lane';
+    font-size: 60px;
 }
 
 p {
     font-size: 18px;
-    font-family: 'Lora';
+    font-family: 'Park Lane';
     color: #e6e6e6;
 }
 
@@ -160,7 +165,7 @@ a {
 
 body {
     background-color: black;
-    background-image: url("../img/glitter.jpg");
+    background-image: url("../img/silk.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
