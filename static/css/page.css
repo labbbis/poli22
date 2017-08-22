@@ -160,9 +160,10 @@ a {
 
 body {
     background-color: black;
-    background-image: url("../img/glitter.jpg") no-repeat;
+    background-image: url("../img/glitter.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
-    color:white;
+    color: white;
 }
 
 #map {
