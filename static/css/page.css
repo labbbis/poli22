@@ -36,6 +36,7 @@ ul, li {
     position: absolute;
     top: 50%;
     right: 1rem;
+    margin-top: -25px;
     -webkit-transition: -webkit-transform 2s ease-in-out;
     transition: transform 2s ease-in-out;
 }
