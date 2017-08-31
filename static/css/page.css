@@ -38,7 +38,6 @@ ul, li {
     right: 1rem;
     -webkit-transition: -webkit-transform 2s ease-in-out;
     transition: transform 2s ease-in-out;
-    width: 30px;
 }
 
 @font-face {
