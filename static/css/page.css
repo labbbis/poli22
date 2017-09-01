@@ -176,7 +176,7 @@ body {
 
 @media screen and (max-width : 768px){
     #landingpage {
-      background: url("../img/glitter2.jpeg") no-repeat center / contain;*/
+      background-color: black;
     }
 
     p {
@@ -187,8 +187,14 @@ body {
     }
 
     .fronttext {
-        margin-top: 40%;
+        margin-top: -5%;
     }
+
+    h4 {
+      font-size: 30px;
+      text-align: center;
+    }
+
 	/*Make dropdown links appear inline*/
 	ul {
 		position: static;
