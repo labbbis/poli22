@@ -14,12 +14,12 @@
     "levels": "7 - nivå 1<br>11 - nivå 2<br>15 - nivå 3",
     "levels-note": "Till skillnad från övriga appron krävs inget tidigare deltagande. Det är alltså möjligt att uppnå vilken som helst prestationsnivå redan första gången du deltar.",
     "sales-header": "Biljettförsäljning",
-    "sales": "Biljettförsäljningsplatser och -tider meddelas senare.",
+    "sales": "<b>Otaniemi, Kandikeskus:</b> ons 11.10., mån 16.10., ons 18.10., må 23.10., ons 25.10., må 30.10., ons 1.11. och fre 3.11. kl. 10-14<br><b>Viikki:</b> tis 17.10. kl. 10-14<br><b>Kumpula:</b> tors 19.10. kl. 10-14<br><b>Porthania:</b> tis 24.10. kl. 10-14<br><b>Metsätalo:</b> ons 26.10. kl. 10-14<br><b>Meilahti:</b> tis 31.10. kl. 10-14<br>Biljettförsäljningen börjar på måndag 9.10. kl. 12 i <b>bailataan.fi</b>",
     "soldout": "Evenemanget är slutsåld.",
     "timetable-header": "Tidtabell",
-    "timetable": "Evenemanget inleds stegvis från och med kl. 16, varefter deltagarna har 5 timmar på sig för pubrundan. Den gemensamma efterfesten börjar kl. 22 på Apollo Live Club (Mannerheimsvägen 16).",
+    "timetable": "Evenemanget inleds stegvis från och med kl. 16, börjande frän baren Uggla (Annegatan 10), varefter deltagarna har tid tills kl. 23 att utföra pubrundan. Den gemensamma efterfesten börjar kl. 21 på Apollo Live Club (Mannerheimsvägen 16).",
     "afterparty-header": "Efterfestens tidtabell",
-    "afterparty": "Efterfestens tidtabell och uppträdare avslöjas senare.",
+    "afterparty": "Början av kvällen: DJ Oto<br>00:15 NELLI MATULA<br>Sluten av kvällen: DJ Monsu",
     "what-poli-header": "Vad är Polin Appro?",
     "what-poli": "Polin Appro är en appro som ordnas i Helsingfors innerstad av Aalto-universitetets studenkårs (AUS) Värdskap. Appron äger rum i området kring Gamla Poli, teknologkulturens vagga, vilket avgränsar approområdet till kvarteren mellan Rödbergen och Kampen. I år 2017 ordnas appron för sjätte gången. De tidigare åren har bjudit på hejdundrande hålligång när skaran av halarklädda studerande och studentsinnade oavsett examen svept över stadens gator.  Till skillnad från övriga appron ändrar Polin appro skepnad varje år. Temat i år är masquerad och därför att är de bra om man har en mask på sig.",
     "what-appro-header": "Vad är en appro?",
@@ -27,5 +27,5 @@
     "what-ie-header": "Vad är IE?",
     "what-ie": "IE eller Isännistö ja Emännistö (Värdskapet) är en kommitté under AUS Teknologsektion som ordnar evenemang. Av tradition har IE varit en kommitté som består av teknologföreningarnas evenemangsansvariga. I och med AUS har också några ekonomi- och konststuderande kallats in som förstärkning. Polin Appro är det största evenemanget som IE ordnar tillsammans. Gemensamt för hela gänget är deras iver och engagerade inställning till att ordna evenemang där alla kan ha kul.",
     "contact-header": "Kontakt",
-    "contact": "Har du frågor eller funderingar? Kontakta kommitténs ordförande IE-direktören per e-post: anna.anttalainen@ayy.fi"
+    "contact": "Har du frågor eller funderingar? Kontakta kommitténs ordförande IE-direktören:<br>anna.anttalainen@ayy.fi<br>044 5307935<br>telegram @BotenAnna<br>"
 }
