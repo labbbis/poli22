@@ -24,8 +24,8 @@ ul, li {
     float: left;
 }
 
-#landingpage {
-  background-color: rgba(0,0,0,0.4);
+.landingpage {
+  background-color: rgba(0,0,0,0.5);
 }
 
 .mobilelogo {
@@ -66,14 +66,19 @@ ul, li {
     src: url('../fonts/Lora-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Rewinder';
+    src: url('../fonts/rewinder.ttf');
+}
+
 h4 {
-    font-family: 'Park Lane';
+    font-family: 'Rewinder';
     font-size: 60px;
 }
 
 p {
     font-size: 24px;
-    font-family: 'Trochut';
+    font-family: 'Oswald', sans-serif;
     color: #e6e6e6;
 }
 
@@ -116,6 +121,7 @@ header nav ul li {
   margin-right: 2rem;
 }
 header a {
+    font-family: 'Rewinder';
     font-weight: bold;
     text-decoration: none;
     color: #fff;
@@ -159,8 +165,7 @@ a {
 
 body {
     background-color: black;
-    background-image: url("../img/silkbg.jpg");
-    background-repeat: no-repeat;
+    background: url("../img/btf-ie.png") center center no-repeat;
     background-size: 100%;
     color: white;
 }
@@ -170,6 +175,7 @@ body {
     width:90%;
 }
 
+
 /*
   M O B I L E
 */
@@ -177,6 +183,13 @@ body {
 @media screen and (max-width : 768px){
     #landingpage {
       background-color: black;
+    }
+
+    body {
+        background-color: black;
+        background: url("../img/btf-ie.png") center center no-repeat;
+        background-size: cover;
+        color: white;
     }
 
     p {
