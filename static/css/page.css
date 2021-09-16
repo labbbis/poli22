@@ -71,14 +71,24 @@ ul, li {
     src: url('../fonts/rewinder.ttf');
 }
 
+@font-face {
+    font-family: 'Artemis';
+    src: local('Artemis'), url('../fonts/Artemis-rgvKL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Academy Engraved';
+    src: local('Academy Engraved'), url('../fonts/Academy Engraved Regular.ttf') format('truetype');
+}
+
 h4 {
-    font-family: 'Rewinder';
+    font-family: 'Artemis';
     font-size: 60px;
 }
 
 p {
     font-size: 24px;
-    font-family: 'Oswald', sans-serif;
+    font-family: serif;
     color: #e6e6e6;
 }
 
@@ -101,7 +111,7 @@ input[type=checkbox]:checked ~ #menu{
 nav {
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
-    font-family: 'Park Lane';
+    font-family: 'Academy Engraved';
     font-size: 18px;
     text-align: center;
     width: 100%;
@@ -121,7 +131,7 @@ header nav ul li {
   margin-right: 2rem;
 }
 header a {
-    font-family: 'Rewinder';
+    font-family: 'Academy Engraved';
     font-weight: bold;
     text-decoration: none;
     color: #fff;
@@ -165,8 +175,8 @@ a {
 
 body {
     background-color: black;
-    background: url("../img/btf-ie.png") center center no-repeat;
-    background-size: 100%;
+    background: url("../img/background.png") center center no-repeat;
+    background-size: cover;
     color: white;
 }
 
@@ -187,8 +197,9 @@ body {
 
     body {
         background-color: black;
-        background: url("../img/btf-ie.png") center center no-repeat;
+        background: url("../img/background.png") center center no-repeat;
         background-size: cover;
+        background-attachment: scroll;
         color: white;
     }
 
