@@ -73,7 +73,7 @@ ul, li {
 
 @font-face {
     font-family: 'Artemis';
-    src: local('Artemis'), url('../fonts/Artemis-rgvKL.ttf') format('truetype');
+    src: local('Artemis'), url('../fonts/Artemis.ttf') format('truetype');
 }
 
 @font-face {
