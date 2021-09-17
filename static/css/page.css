@@ -267,6 +267,7 @@ body:after{
 	/*Display 'show menu' link*/
     .show-menu {
       height: 60px;
-		  display:block;
+	  display:block;
+      background: rgba(0, 0, 0, 0.5);
 	}
 }
