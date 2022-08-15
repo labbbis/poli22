@@ -81,15 +81,20 @@ ul, li {
     src: local('Academy Engraved'), url('../fonts/Academy Engraved Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Seagram TFB';
+    src: local('Seagram TFB'), url('../fonts/Seagram\ tfb.ttf') format('truetype');
+}
+
 h4 {
-    font-family: 'Artemis';
+    font-family: 'Seagram TFB';
     font-size: 60px;
 }
 
 p {
     font-size: 24px;
     font-family: serif;
-    color: #e6e6e6;
+    color: #ffffff;
 }
 
 /*Style 'show menu' label button and hide it by default*/
@@ -166,18 +171,42 @@ a, a:hover {
     transform: rotate(360deg);
 }
 
+.tj {
+    height: 150px;
+    width: 150px;
+    padding-right: 50px;
+    margin-bottom: -25px;
+}
+
+.ayy {
+    height: 100px;
+    width: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.teekkarius {
+    height: 100px;
+    width: 150px;
+    padding-left: 50px;
+}
+
+.logot {
+    padding-top: 100px;
+}
+
 /* navbar end */
 a {
-    color:white;
+    color:#ffffff;
     font-weight: bold;
     text-decoration: none;
 }
 
 body {
     background-color: black;
-    background: url("../img/background.png") center center no-repeat;
+    background: url("../img/PolinAppro_nettisivut.png") center center no-repeat;
     background-size: cover;
-    color: white;
+    color: #95BBEC;
 }
 
 /*FIX FOR IOS BACKGROUND IMAGE*/
@@ -189,7 +218,7 @@ body:after{
     left:0;
     right:0;
     z-index:-1; /* needed to keep in the background */
-    background: url("../img/background.png") center center;
+    background: url("../img/PolinAppro_nettisivut.png") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -213,10 +242,10 @@ body:after{
 
     body {
         background-color: black;
-        background: url("../img/background.png") center center no-repeat;
+        background: url("../img/PolinAppro_nettisivut.png") center center no-repeat;
         background-size: cover;
         background-attachment: scroll;
-        color: white;
+        color: black;
     }
 
     p {
