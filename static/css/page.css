@@ -281,6 +281,24 @@ body:after{
 	ul li, li a {
 		width: 100%;
 	}
+
+    .teekkarius {
+        padding-left: 0px;
+        padding-top:25px;
+    }
+
+    .ayy {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .tj {
+        padding-right: 0px;
+        padding-bottom: 25px;
+    }
+
     /*Style for menu links*/
     li a {
       display:block;
