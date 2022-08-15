@@ -8,13 +8,13 @@
     "navigation-6": "OTA YHTEYTTÄ",
     "navigation-7" : "KARTTA",
     "info-header": "Yleistä",
-    "info-1": "Teekkarius 150 -juhlavuosi on käynnissä ja samalla tulevat myös Polin Approt!",
+    "info-1": "Teekkarius 150 -juhlavuosi on käynnissä ja samalla tulevat myös Polin Approt! Tänä vuonna teekkariperinneviikkoja vietetään jopa kahden viikon ajan, joten myös Polin Approt järjestetään 9.-10.11. eli kaksipäiväisenä.",
     "tickets-header": "Liput",
     "levels-header": "Suoritustasot",
     "levels": "<b>7</b> - Taso 1<br><b>11</b> - Taso 2<br><b>15</b> - Taso 3",
     "levels-note": "Muista approista poiketen suorituksiin ei vaadita aikaisempaa osallistumista, eli minkä tahansa suoritustason voi saavuttaa jo ensimmäisellä osallistumiskerralla.",
     "sales-header": "Lipunmyynti",
-    "sales": "Ennakkoliput tulevat myyntiin keskiviikkona 15.9. klo 12 <a href='https://bit.ly/polinappro2021'>kide.appissa</a>. Ennakkoon voi ostaa vain yhteislippuja Dipolin ja Polin approille. Kurkkaa siis myös Dipolin appron <a href='https://www.facebook.com/events/174239184821393'>Facebook-tapahtuma</a>. Molempien tapahtumien ikäraja on K18.",
+    "sales": "Lipunmyynti julkaistaan myöhemmin. <a href='https://bit.ly/polinappro2021'>kide.appissa</a>. Ennakkoon voi ostaa vain yhteislippuja Dipolin ja Polin approille. Kurkkaa siis myös Dipolin appron <a href='https://www.facebook.com/events/174239184821393'>Facebook-tapahtuma</a>. Molempien tapahtumien ikäraja on K18.",
     "soldout": "Tapahtuma on loppuunmyyty.",
     "timetable-header": "Aikataulu",
     "timetable": "Rastikarttojen jako alkaa Heidi’s Bier Barista (Yrjönkatu 24) porrastetusti klo 16, jossa niitä jaetaan klo 19 asti. Merkintöjä karttaan saat käymällä siihen merkityissä yhteistyöbaareissa. Baareja ehtii kierrellä aina klo 23 saakka. Jatkot alkavat Apollo Live Clubilla (Mannerheimintie 16) jo klo 21, jossa rastikartan voi vaihtaa haalarimerkkiin ja illan esiintyjät nostavat tunnelman kattoon.<br><br>HSL tarjoaa yöllä 108N-linjan lisävuoroja klo 2:35, 2:55 ja 3:15. Lisävuorot näkyvät myös reittioppaassa: <a href='https://www.hsl.fi/'>https://www.hsl.fi/</a>",
@@ -27,7 +27,7 @@
     "what-ie-header": "Mikä IE?",
     "what-ie": "IE eli Isännistö ja Emännistö on AYY:n Teekkarijaoston alla toimiva toimikunta, joka järjestää tapahtumia. IE on toimikunta, johon kuuluu AYY:n erityisasemayhdistysten tapahtumavastaavia, joten IE:stä löytyy niin teekkareita, kyltereitä kuin Artsilaisiakin. Polin Appro on suurin IE:n yhdessä järjestämä tapahtuma. Koko porukkaa yhdistää innostus sekä antaumuksellinen asenne tapahtumien järjestämiseen luoden hauskanpidon puitteet kaikille.",
     "contact-header": "Ota yhteyttä",
-    "contact": "Onko kysyttävää tai muuta mietittävää? Ota yhteyttä toimikunnan puheenjohtajaan IE-tirehtööriin:<br>veera.repka(at)ayy.fi<br>telegram @repkele",
-    "information-header": "Koronainfo",
-    "information": "Varaudu näyttämään EU:n koronatodistus rasteilla. Koronatodistuksen saa ladattua Omakannasta <a href='https://www.kanta.fi/omakanta'>https://www.kanta.fi/omakanta</a>, ja se kannattaakin ladata ja tallentaa saataville etukäteen ruuhkautumisen estämiseksi rasteilla!"
+    "contact": "Onko kysyttävää tai muuta mietittävää? Ota yhteyttä toimikunnan puheenjohtajaan IE-tirehtööriin:<br>leevi.koistinen(at)ayy.fi<br>telegram @theleevings",
+    "information-header": "POISTA",
+    "information": "POISTA"
 }
