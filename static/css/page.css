@@ -204,7 +204,7 @@ a {
 
 body {
     background-color: black;
-    background: url("../img/PolinAppro_nettisivut.png") center center no-repeat;
+    background: url("../img/PolinAppro_nettisivut_musta.png") center center no-repeat;
     background-size: cover;
     color: #95BBEC;
 }
@@ -218,7 +218,7 @@ body:after{
     left:0;
     right:0;
     z-index:-1; /* needed to keep in the background */
-    background: url("../img/PolinAppro_nettisivut.png") center center;
+    background: url("../img/PolinAppro_nettisivut_musta.png") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -242,7 +242,7 @@ body:after{
 
     body {
         background-color: black;
-        background: url("../img/PolinAppro_nettisivut.png") center center no-repeat;
+        background: url("../img/PolinAppro_nettisivut_musta.png") center center no-repeat;
         background-size: cover;
         background-attachment: scroll;
         color: black;
