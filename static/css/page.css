@@ -183,19 +183,21 @@ a, a:hover {
     width: 150px;
     padding-right: 50px;
     margin-bottom: -25px;
+    padding-bottom: 50px;
 }
 
 .ayy {
     height: 100px;
     width: 300px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 150px;
+    padding-bottom: 50px;
 }
 
 .teekkarius {
     height: 100px;
     width: 150px;
-    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .logot {
@@ -241,6 +243,16 @@ body:after{
 /*
   M O B I L E
 */
+
+@media screen and (max-width : 1396px){
+    .ayy, .tj, .teekkarius {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 0px;
+    }
+}
 
 @media screen and (max-width : 768px){
     #landingpage {

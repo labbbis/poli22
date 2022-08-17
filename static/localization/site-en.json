@@ -16,8 +16,8 @@
     "sales-header": "Ticket sales",
     "sales": "Pre-ticket sale starts on Wednesday 15.9. at 12 on <a href='https://bit.ly/polinappro2021'>kide.app</a>. Pre-tickets can only be purchased together with Dipolin Appro tickets at a common price of 20€. Dipolin Appro <a href='https://www.facebook.com/events/174239184821393'>Facebook event</a>. Notice that the age limit for both events is 18 years.",
     "soldout": "The event tickets are sold out.",
-    
-
+    "timetable-header": "Timetable",
+    "timetable": "The timetable for the event here",
     "performers": "Performers",
     "firstday-header": "9.10.",
     "firstday-text": "Performers of the first day here",
@@ -29,6 +29,7 @@
     "what-appro": "The idea of the appro is to visit the pubs marked in the appro ticket and collect drink stamps. You get an overall badge at the afterparty depending on the number of stamps that you have collected during the evening. After the pub crawl, you can head to Apollo Live Club to the official afterparty. Free admission with the appro ticket.",
     "what-ie-header": "What is IE?",
     "what-ie": "IE, meaning the Hosts and Hostesses (\"Isännistö and Emännistö\") is a committee operating under AYY's Teekkari Section, which organises events. IE is a committee for AYY subject associations’ event managers, so we have engineering, business as well as arts students in IE. Polin Appro is the largest event organised by IE. The whole bunch of people are united by their enthusiasm and dedicated attitude in event organising, creating an opportunity for everyone to have fun.",
+    "map-info": "The map will be announced on the first day of the appro.",
     "contact-header": "Get in touch",
     "contact": "Do you have any questions or comments? Please get in touch with the Committee Chairperson, IE Director:<br>veera.repka@ayy.fi<br>telegram @repkele<br>",
     "information-header": "Corona info",
