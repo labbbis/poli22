@@ -155,6 +155,13 @@ a, a:hover {
   text-align:center;
 }
 
+.one-half-column {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
 .ielogo {
     position: absolute;
     top: 50%;
