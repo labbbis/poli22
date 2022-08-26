@@ -178,6 +178,25 @@ a, a:hover {
     transform: rotate(360deg);
 }
 
+.tiedotus {
+    padding: 50px;
+}
+
+.ig, .tg {
+    width: 200px;
+    height: 200px;
+}
+
+.ig {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.tg {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
 .tj {
     height: 150px;
     width: 150px;
@@ -316,6 +335,11 @@ body:after{
     .tj {
         padding-right: 0px;
         padding-bottom: 25px;
+    }
+
+    .tg, .ig {
+        height: 50px;
+        width: 50px;
     }
 
     /*Style for menu links*/
