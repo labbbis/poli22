@@ -1,139 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Polin Appro 2017</title>
+  <title>Polin Appro 2022</title>
+  <link rel="shortcut icon" type="image/x-icon" href="static/favicon.ico"/>
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT -->
   <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
   <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
-
-  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300" rel="stylesheet">
   <link rel="stylesheet" href="static/css/skeleton.css">
   <link rel="stylesheet" href="static/css/normalize.css">
   <link rel="stylesheet" href="static/css/jquery.fullPage.css">
   <link rel="stylesheet" href="static/css/page.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.5.0/css/flag-icon.min.css">
   <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
-  <!-- JS -->
+
   <script type="text/javascript" src="static/js/jquery-1.12.4.min.js"></script>
   <script type="text/javascript" src="static/js/jquery.fullPage.js"></script>
   <script type="text/javascript" src="static/js/jquery.localize.js"></script>
   <script type="text/javascript" src="static/js/page.js"></script>
   <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
-
-  <!-- Favicon -->
-  <!--link rel="icon" type="image/png" href="images/favicon.png"-->
-
 </head>
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header>
 	<nav id="navigation">
         <!--img src="static/img/ielogo.png" class="ielogo" /-->
-        <label for="show-menu" class="show-menu"><img src="static/img/ielogo.png" class="ielogo" /></label>
+        <label for="show-menu" class="show-menu"><img src="static/img/ielogo.png" class="ielogo"/></label>
         <input type="checkbox" id="show-menu" role="button">
 		<ul class="row" id="menu">
-            <li><a href="javascript:$.fn.fullpage.moveTo(2);" data-localize="navigation-1">YLEISTÄ</a></li>
-            <li><a href="javascript:$.fn.fullpage.moveTo(3);" data-localize="navigation-2">LIPUT</a></li>
-            <li><a href="javascript:$.fn.fullpage.moveTo(5);" data-localize="navigation-3">AIKATAULU</a></li>
-            <li><a href="javascript:$.fn.fullpage.moveTo(6);" data-localize="navigation-4">KARTTA</a></li>
-			<li><a href="javascript:$.fn.fullpage.moveTo(7);" data-localize="navigation-5">MUUTA</a></li>
-			<li><a href="javascript:$.fn.fullpage.moveTo(10);" data-localize="navigation-6">OTA YHTEYYTA</a></li>
+	    <li><a href="javascript:$.fn.fullpage.moveTo(1);" data-localize="navigation-0">POLIN APPRO</a></li>
+      <li><a href="javascript:$.fn.fullpage.moveTo(2);" data-localize="navigation-1">YLEISTÄ</a></li>
+      <li><a href="javascript:$.fn.fullpage.moveTo(4);" data-localize="navigation-2">LIPUT</a></li>
+      <li><a href="javascript:$.fn.fullpage.moveTo(6);" data-localize="navigation-3">AIKATAULU</a></li>
+      <li><a href="javascript:$.fn.fullpage.moveTo(8);" data-localize="navigation-5">MUUTA</a></li>
+      <li><a href="javascript:$.fn.fullpage.moveTo(11);" data-localize="navigation-7">KARTTA</a></li>
+      <li><a href="javascript:$.fn.fullpage.moveTo(12);" data-localize="navigation-6">OTA YHTEYTTÄ</a></li>
 		</ul>
+	<h5 class="fronttext" style="font-size: 25px"><a href='javascript:localize("fi");'><span class="flag-icon flag-icon-fi"></span></a>   <a href='javascript:localize("se");'><span class="flag-icon flag-icon-se"></span></a>   <a href='javascript:localize("en");'><span class="flag-icon flag-icon-gb"></span></a></h5>
 	</nav>
 </header>
 <div class="new-container" id="fullpage">
-    <div class="row section" id="landingpage">
-      <div class="container" style="margin-top: 25%">
-        <h4><a href='javascript:localize("fi");'>fi</a> | <a href='javascript:localize("se");'>sv</a> | <a href='javascript:localize("en");'>en</a></h4>
-        <p class="blink">POLIN APPRO 2017</p>
+    <div class="row section landingpage">
+      <div class="container" style="margin-top: 1%">
+        <img class="mobilelogo" src="static/img/Logo_pvm.png">
       </div>
     </div>
-    <div class="row section">
+    <div class="row section landingpage">
       <div class="container" style="margin-top: 10%">
-        <h4>Yleistä</h4>
-        <p>Polin appro -baariseikkailu tulee taas uudella ilmeellä!</p>
+        <h4 data-localize="info-header">Yleistä</h4>
+          <p data-localize="info-1">
+            Teekkarius 150-juhlavuosi on käynnissä ja samalla tulevat myös Polin Approt! Tänä vuonna teekkariperinneviikkoja vietetään jopa kahden viikon ajan, joten myös Polin Approt järjestetään 9.-10.11. eli kaksipäiväisenä.          </p>
       </div>
     </div>
-    <div class="row section">
-        <div class="container">
-      <div class="one-half column" style="margin-top: 10%">
-        <h4>Liput</h4>
-        <p>x ennakkoon</p>
-        <p>y netistä</p>
-        <p>z vain jatkot</p>
-        <p>Liput sisältävät jatkojen narikkamaksun (Xe)</p>
-      </div>
-      <div class="one-half column" style="margin-top: 10%">
-        <h4>Suoritustasot</h4>
-        <p>7 - </p>
-        <p>11 - </p>
-        <p>15 - </p>
-      </div>
-      <p>Muista approista poiketen suorituksiin ei vaadita aikaisempaa osallistumista, eli minkä tahansa suoritustason voi saavuttaa jo ensimmäisellä osallistumiskerralla.</p>
-    </div>
-      </div>
-    <div class="row section">
-      <div class="container" style="margin-top: 10%">
-        <h4>Lipunmyynti</h4>
-        <p>Lisätietoja lipunmyynnistä myöhemmin.</p>
-      </div>
-    </div>
-    <div class="row section" id="test123">
-        <div class="container">
-        <div class="one-half column" style="margin-top: 10%">
-            <h4>Aikataulu</h4>
-            <p>Tapahtuma alkaa portaittain kello 16.00 lähtien baarista X, jonka jälkeen kiertelyaikaa on 4 tuntia. Yhteiset jatkot pamahtavat käyntiin kello 21 alkaen Club Capitalissa (Fredrikinkatu 51).</p>
+
+    <div class="row section landingpage">
+      <div class="container">
+        <h4 data-localize="information-header">Tiedotuskanavat</h4>
+        <div class="tiedotus">
+          <a href="http://instagram.com/polinappro">
+            <img id="ig" class='ig' src='static/img/instagram.png'/>
+          </a>
+          <a href="https://t.me/polinappro">
+          <img id="tg" class='tg' src ='static/img/telegram.png'/>
+          </a>
         </div>
-        <div class="one-half column" style="margin-top: 10%">
-            <h4>Jatkojen aikataulu:</h4>
-            <p>22:30 joku bändi</p>
-            <p>00:30 joku bändi</p>
+        <p data-localize="information">
+          Seuraa Polin Approa Instagramissa ja liity Polin Appron Telegram-kanavalle saadaksesi ajankohtaista tietoa tapahtumasta!
+        </p>
+      </div>
+    </div>
+
+    <div class="row section landingpage">
+        <div class="container">
+            <h4 data-localize="sales-header">Lipunmyynti</h4>
+              <p data-localize="sales">
+                Lipunmyynti julkaistaan myöhemmin. Polin approjen lippuja tullaan myymään yhdessä Dipolin Approjen lippujen kanssa sekä erikseen. Molempien tapahtumien ikäraja on K18.
+              </p>
+
+              <!--
+                <p data-localize="soldout">Tapahtuma on loppuunmyyty.</p>
+              -->
         </div>
     </div>
-    </div>
-    <div class="row section">
-      <div id="map" class="container" style="margin-top: 10%">
-        <h4 id="maptext">Kartta</h4>
+
+    <div class="row section landingpage">
+      <div class="container" style="margin-top: 10%">
+        <h4 data-localize="levels-header">Suoritustasot</h4>
+        <p data-localize="levels"><b>7</b> - Taso 1<br><b>11</b> - Taso 2<br><b>15</b> - Taso 3</p>
       </div>
     </div>
-    <div class="row section">
+
+    <div class="row section landingpage">
       <div class="container" style="margin-top: 10%">
-        <h4>Mikä Polin Appro?</h4>
-        <p>Polin Appro on Aalto-yliopiston ylioppilaskunnan (AYY) toimikunnan Isännistön ja Emännistön (IE) järjestämä tajunnanräjäyttävä appro Helsingin ydinkeskustassa. Appro sijoittuu Vanhan Polin ympäristölle teekkariuden alkulähteille rajaten approalueen Punavuoresta Kamppiin. Tänä vuonna 2016 appro järjestetään jo viidettä kertaa, sillä kaikkina aikaisempina vuosina meno on ollut huikeaa, kun lauma haalaripukuisia opiskelijoita ja opiskelijamielisiä tutkinnosta riippumatta ovat vallanneet Helsingin kadut. Muista approista poiketen Polin Appro muuttaa muotoaan joka vuosi. Tänä vuonna approssa päästään nauttimaan (teemapuffi tähän).</p>
+        <h4 data-localize="timetable-header">Aikataulu</h4>
+        <p data-localize="timetable">Julkaistaan myöhemmin!</p>
       </div>
     </div>
-    <div class="row section">
+
+    <div class="row section landingpage">
+        <div class="container">
+          <h4 data-localize="performers">Esiintyjät</h4>
+            <div class="one-half-column" style="margin-top: 5%">
+                <h4 data-localize="firstday-header">9.10.</h4>
+                <p data-localize="firstday-text">
+              <!--    Ensimmäisen päivän esiintyjät tähän<br>
+                  Esiintyjä 1<br>
+                  Esiintyjä 2<br>
+                  Esiintyjä 3<br> -->
+                  Julkaistaan myöhemmin!
+                </p>
+            </div>
+            <div class="one-half-column" style="margin-top: 5%">
+                <h4 data-localize="secondday-header">10.10.</h4>
+		            <p data-localize="secondday-text">
+              <!--    Toisen päivän esiintyjät tähän<br>
+                  Esiintyjä 1<br>
+                  Esiintyjä 2<br>
+                  Esiintyjä 3<br> -->
+                  Julkaistaan myöhemmin!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row section landingpage">
       <div class="container" style="margin-top: 10%">
-        <h4>Mikä appro?</h4>
-        <p>Appron ideana on kiertää approlippuun merkittyjä baareja juomaleimoja keräten. Illan mittaan kerätyistä leimoista saa jatkopaikalla haalarimerkin, joka määräytyy leimojen lukumäärän mukaisesti. Polin Approssa suoritusaika on neljä tuntia. Kiertelyn jälkeen suunnataan kohti Club Capitalia, jossa ovat tapahtuman viralliset jatkot. Jatkoille pääsee approlipulla.</p>
+        <h4 data-localize="what-poli-header">Mikä Polin Appro?</h4>
+        <p data-localize="what-poli">Polin Appro on Aalto-yliopiston ylioppilaskunnan (AYY) toimikunnan Isännistön ja Emännistön (IE) järjestämä veret seisauttava appro Helsingin ydinkeskustassa. Appro sijoittuu Vanhan Polin ympäristöön teekkariuden alkulähteille rajaten approalueen Punavuoresta Kamppiin.</p>
       </div>
     </div>
-    <div class="row section">
+    <div class="row section landingpage">
       <div class="container" style="margin-top: 10%">
-        <h4>Mikä IE?</h4>
-        <p>IE eli Isännistö ja Emännistö on AYY:n Teekkarijaoston alla toimiva toimikunta, joka järjestää tapahtumia. IE on perinteisesti ollut toimikunta, johon kuuluu teekkariyhdistysten tapahtumavastaavia. AYY:n myötä teekkareiden vahvistukseksi IE:seen on saatu myös muutama Kylteri ja Taikkilainen. Polin Appro on suurin IE:n yhdessä järjestämä tapahtuma. Koko porukkaa yhdistää innostus sekä antaumuksellinen asenne tapahtumien järjestämiseen luoden hauskanpidon puitteet kaikille.</p>
+        <h4 data-localize="what-appro-header">Mikä appro?</h4>
+        <p data-localize="what-appro">Appron ideana on kiertää approlippuun merkittyjä baareja juomaleimoja keräten. Illan mittaan kerätyistä leimoista saa jatkopaikalla haalarimerkin, joka määräytyy leimojen lukumäärän mukaisesti. Kiertelyn jälkeen suunnataan kohti Apollo Live Clubia, jossa ovat tapahtuman viralliset jatkot. Jatkoille pääsee approlipulla.</p>
       </div>
     </div>
-    <div class="row section fp-auto-height">
+    <div class="row section landingpage">
       <div class="container" style="margin-top: 10%">
-        <h4>Ota yhteyttä</h4>
-        <p>Onko kysyttävää tai muuta mietittävää? Ota yhteyttä toimikunnan puheenjohtajaan IE-tirehtööriin sähköpostilla: anna.anttalainen@ayy.fi</p>
+        <h4 data-localize="what-ie-header">Mikä <img class="ie2" style="height: 50px; width: 50px; padding-right: 5px; padding-left: 7px;" src="static/img/ielogo.png">?</h4>
+        <p data-localize="what-ie">IE eli Isännistö ja Emännistö on AYY:n Teekkarijaoston alla toimiva toimikunta, joka järjestää tapahtumia. IE on toimikunta, johon kuuluu AYY:n erityisasemayhdistysten tapahtumavastaavia, joten IE:stä löytyy niin teekkareita, kyltereitä kuin artsilaisiakin. Polin Appro on suurin IE:n yhdessä järjestämä tapahtuma. Koko porukkaa yhdistää innostus sekä antaumuksellinen asenne tapahtumien järjestämiseen luoden hauskanpidon puitteet kaikille.</p>
+      </div>
+    </div>
+    <div class="row section landingpage">
+    	<div class= "container" style="margin-top: 10%">
+        <h4 data-localize="navigation-7"> KARTTA </h4>
+       <!-- <a href="static/img/appromap.png">
+          <img id='map' src='static/img/appromap.png' alt='approkartta' />
+        </a> 
+        <p><i>Klikkaa kuvaa avataksesi suurempana</i></p> -->
+        <p data-localize="map-info">Kartta julkaistaan approjen ensimmäisenä päivänä.</p>
+    	</div>
+    </div>
+    <div class="row section landingpage">
+      <div class="container" style="margin-top: 10%">
+        <h4 data-localize="contact-header">Ota yhteyttä</h4>
+          <p data-localize="contact">
+            Onko kysyttävää tai muuta mietittävää? Ota yhteyttä toimikunnan puheenjohtajaan IE-tirehtööriin:<br>leevi.koistinen(at)ayy.fi<br>telegram @theleevings
+          </p>
+          <div class="logot">
+            <img class='tj' src='static/img/pystis.png'/>
+            <img class='ayy' src ='static/img/ayy2_white.png'/>
+            <img class='teekkarius' src='static/img/150_white.png'/>
+          </div>
       </div>
     </div>
 </div>
-  </div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

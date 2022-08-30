@@ -5,13 +5,41 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
-#landingpage {
-  background: url("../img/logo4.png") no-repeat fixed center;
-}/*
-#test123 {
-  background: url("../img/test1.jpg") no-repeat fixed center / cover;
-  background-color: pink;
-}*/
+
+ul {
+    white-space: nowrap;
+}
+
+ul, li {
+    list-style: none;
+    display: inline;
+}
+
+.container {
+    width: 65%;
+}
+
+.logoimg {
+    width: 8%;
+    float: left;
+}
+
+.landingpage {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.mobilelogo {
+    max-width: 100%;
+}
+
+.fronttext {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    margin-top: -20px;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+}
 
 @font-face {
     font-family: pixel;
@@ -19,26 +47,56 @@
 }
 
 @font-face {
-    font-family: start;
+    font-family: 'Park Lane';
+    src: url('../fonts/ParkLaneNF.ttf');
+}
+
+@font-face {
+    font-family: 'Trochut';
+    src: url('../fonts/Trochut-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lovers Quarrel';
     src: url('../fonts/LoversQuarrel-Regular.ttf');
 }
 
-.blink {
-  font-family: start;
-  font-size: 16px;
-  animation: blink-animation 1s steps(5, start) infinite;
-  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Regular.ttf');
 }
-@keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
+
+@font-face {
+    font-family: 'Rewinder';
+    src: url('../fonts/rewinder.ttf');
 }
-@-webkit-keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
+
+@font-face {
+    font-family: 'Artemis';
+    src: local('Artemis'), url('../fonts/Artemis.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Academy Engraved';
+    src: local('Academy Engraved'), url('../fonts/Academy Engraved Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Seagram TFB';
+    src: local('Seagram TFB'), url('../fonts/Seagram\ tfb.ttf') format('truetype');
+}
+
+h4 {
+    font-family: 'Seagram TFB';
+    font-size: 60px;
+}
+
+p {
+    font-size: 24px;
+    font-family: serif;
+    color: #ffffff;
+}
+
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
     height: 0;
@@ -55,54 +113,17 @@ input[type=checkbox]:checked ~ #menu{
     display: block;
 }
 
-@media screen and (max-width : 768px){
-	/*Make dropdown links appear inline*/
-	ul {
-		position: static;
-		display: none;
-	}
-	/*Create vertical spacing*/
-	li {
-		margin-bottom: 1px;
-        /*Create a horizontal list with spacing*/
-        display:inline-block;
-        float: left;
-        margin-right: 1px;
-	}
-	/*Make all menu links full width*/
-	ul li, li a {
-		width: 100%;
-	}
-    /*Style for menu links*/
-    li a {
-      display:block;
-    	min-width:140px;
-    	height: 40px;
-    	text-align: center;
-    	line-height: 40px;
-    	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    	color: #fff;
-    	background: #2f3036;
-    	text-decoration: none;
-    }
-	/*Display 'show menu' link*/
-    .show-menu {
-      height: 60px;
-		  display:block;
-	}
-}
-
 nav {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
-    font-family: start;
-    font-size: 8px;
+    font-family: 'Academy Engraved';
+    font-size: 18px;
     text-align: center;
     width: 100%;
     height: 60px;
     line-height:60px;
-    opacity: 0.95;
     z-index: 1;
+    letter-spacing: 1px;
 }
 
 header nav ul {
@@ -112,9 +133,10 @@ header nav ul {
 }
 header nav ul li {
   display: inline;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 header a {
+    font-family: 'Academy Engraved';
     font-weight: bold;
     text-decoration: none;
     color: #fff;
@@ -133,6 +155,13 @@ a, a:hover {
   text-align:center;
 }
 
+.one-half-column {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
 .ielogo {
     position: absolute;
     top: 50%;
@@ -145,38 +174,190 @@ a, a:hover {
 }
 
 .ielogo:hover {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.tiedotus {
+    padding: 50px;
+}
+
+.ig, .tg {
+    width: 200px;
+    height: 200px;
+}
+
+.ig {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.tg {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.tj {
+    height: 150px;
+    width: 150px;
+    padding-right: 50px;
+    margin-bottom: -25px;
+    padding-bottom: 50px;
+}
+
+.ayy {
+    height: 100px;
+    width: 300px;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.teekkarius {
+    height: 100px;
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+.logot {
+    padding-top: 100px;
 }
 
 /* navbar end */
 a {
-    color:white;
+    color:#ffffff;
     font-weight: bold;
     text-decoration: none;
 }
 
 body {
     background-color: black;
-    color:white;
+    background: url("../img/PolinAppro_nettisivut_musta.png") center center no-repeat;
+    background-size: cover;
+    color: #95BBEC;
+}
+
+/*FIX FOR IOS BACKGROUND IMAGE*/
+body:after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url("../img/PolinAppro_nettisivut_musta.png") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #map {
     height:75%;
     width:90%;
 }
-/* Basic CSS */
+
+
 /*
-header nav ul li ul {
-  display: none;
-}
-a:hover {
-  color: #333;
-}
-a, a:hover {
-  -o-transition: color 0.25s ease-in;
-  -webkit-transition: color 0.25s ease-in;
-  -moz-transition: color 0.25s ease-in;
-  transition: color 0.25s ease-in;
-}
+  M O B I L E
 */
+
+@media screen and (max-width : 1396px){
+    .ayy, .tj, .teekkarius {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 0px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    #landingpage {
+      background-color: black;
+    }
+
+    body {
+        background-color: black;
+        background: url("../img/PolinAppro_nettisivut_musta.png") center center no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        color: #95BBEC;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    .container {
+        width: 85%;
+    }
+
+    .fronttext {
+        margin-top: -5%;
+    }
+
+    h4 {
+      font-size: 30px;
+      text-align: center;
+    }
+
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+        /*Create a horizontal list with spacing*/
+        display:inline-block;
+        float: left;
+        margin-right: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+
+    .teekkarius {
+        padding-left: 0px;
+        padding-top:25px;
+    }
+
+    .ayy {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .tj {
+        padding-right: 0px;
+        padding-bottom: 25px;
+    }
+
+    .tg, .ig {
+        height: 50px;
+        width: 50px;
+    }
+
+    /*Style for menu links*/
+    li a {
+      display:block;
+    	min-width:140px;
+    	height: 40px;
+    	text-align: center;
+    	line-height: 40px;
+    	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    	color: #fff;
+    	background: #2f3036;
+    	text-decoration: none;
+    }
+	/*Display 'show menu' link*/
+    .show-menu {
+      height: 60px;
+	  display:block;
+      background: rgba(0, 0, 0, 0.5);
+	}
+}
