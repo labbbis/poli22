@@ -283,7 +283,7 @@ body:after{
         background: url("../img/PolinAppro_nettisivut_musta.png") center center no-repeat;
         background-size: cover;
         background-attachment: scroll;
-        color: black;
+        color: #95BBEC;
     }
 
     p {
